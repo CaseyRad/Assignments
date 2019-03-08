@@ -1,0 +1,74 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/a7/87/88/a78788d285a647701307d615d5d2a08b.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;  
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "goomba . . "
+    ". bob-omb ."
+    ". . cheep-cheep"
+    "footer footer footer"
+
+}
+
+h1 {
+    font-size: 100px;
+    font-family: cursive;
+    text-align: center;
+    grid-area: header;
+    color: #049cd8;
+}
+.goomba{
+    grid-area: goomba;
+}
+
+#goombas {
+    font-size: 30px;
+    font-family: cursive;
+    color: #fbd000;
+}
+#goomba-img {
+    height: 200px;
+    width: 200px;
+}
+
+.bob-omb{
+    grid-area: bob-omb;
+}
+
+#bob-ombs {
+    font-size: 30px;
+    font-family: cursive;
+    color: #e52521;
+}
+#bob-img {
+    height: 300px;
+    width: 300px;
+}
+
+.cheep-cheep{
+    grid-area: cheep-cheep;
+}
+
+#cheep-cheeps{
+    font-size: 30px;
+    font-family: cursive;
+    color: #43B047;
+}
+
+#cheep-img{
+    height: 500px;
+    width: 500px;
+}
+
+.footer{
+    font-family: cursive;
+    font-size: 20px;
+    grid-area: footer;
+}

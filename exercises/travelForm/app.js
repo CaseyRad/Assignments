@@ -12,7 +12,7 @@ document.travelForm.addEventListener("submit", function(e) {
             } 
             
         }
-//console.log(checkedLocation);
+console.log(checkedLocation);
 
     let restriction = document.travelForm.restriction;
     let checkedRestriction = []
@@ -24,5 +24,13 @@ document.travelForm.addEventListener("submit", function(e) {
     }
 console.log(checkedRestriction);
 
-
+alert(
+    `
+    First Name: ${firstName} 
+    Last Name: ${lastName}
+    Age: ${age}
+    Gender: ${gender}
+    Location: ${checkedLocation.join(", ")}
+    Dietary Restrictions: ${checkedRestriction.join(", ")}
+    `)
 });

@@ -1,4 +1,87 @@
-*{
-    display: grid;
+body {
+    display: grid; 
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer"; 
+    font-family: cursive;
+    font-size: 50px;
+    color: gray;
+    background-image: url(https://images.vexels.com/media/users/3/128441/isolated/preview/94fa6cbd8ee50f6b736f45e9003fc313-plane-ticket-travel-icon-by-vexels.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: center;
+    background-attachment: fixed; 
     
+}
+
+h1 {
+    grid-area: header;
+    /*text-align center;*/
+    font-family: cursive;
+    font-size: 100px;
+    color: gray;
+    position: fixed;
+    
+    
+   
+}
+
+form{
+    grid-area: main;
+    text-align: center;
+
+    
+}
+
+#firstName{
+    
+}
+#lastName{
+
+}
+
+#age{
+
+}
+
+#gender1{
+
+}
+
+#gender2{
+
+}
+
+#location1{
+
+}
+
+#location2{
+
+}
+
+#location3{
+
+}
+
+#restriction1{
+
+}
+
+#restriction2{
+
+}
+
+#restriction3{
+
+}
+
+#submitButton{
+    font-family: cursive;
+    font-size: 20px;
+    color: gray;
+
 }

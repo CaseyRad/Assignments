@@ -56,3 +56,74 @@
 //          hasSideCar: false
 // }
 
+// cosnt numArray = [4, 3, 5, 1, 7, 6, 2, 8, 9]
+// cosnt letterArray = ["c", "o", "p", "l", "w", "x", "i"]
+
+// const reduced = letterArray.reduce(sum, x) => {
+//     sum[x] = "10"
+// },{})
+// console.log();
+
+
+
+
+// notes: 3/13/19 
+// testing: automated testing. test driven development= write all tersts first. have these functions. run the test. read in the begining. then write the code.
+// behavior driven development. 
+// third party package
+// notes: 
+// jest
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+
+// 1. Make an array of numbers that are doubles of the first array
+// const arr = [2, 5, 100]
+// function doubleNumbers(arr){
+//     const newArr = arr.map();
+//     return newArr * 2;
+//   } 
+
+//   console.log(newArr); // [4, 10, 200] 
+
+// var matrix = [
+//     [1,2,3],
+//     [5,6,7],
+//     [9,8,4] 
+// ]
+
+// console.log(matrix[i].length);
+ 
+var multiply = require(' ./app')
+
+desccribe('Multiply function', function(){
+    test("it multiplies ")
+
+
+}
+
+
+
+
+)

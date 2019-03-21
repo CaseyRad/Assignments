@@ -1,0 +1,21 @@
+{
+    "appetizers":[
+        {"pickles": ["kosher", "dill", "spicy"]}, 
+        {"fries": ["salty", "spicy", "sweet and spicy"]}, 
+        {"deviled eggs":["jalepenos", "eggs", "mayo"]}
+    ],
+
+    "cold sandwiches":[
+        {"italian": ["ham", "salami", "lettuce", "mayo"]}, 
+        {"club": ["ham", "turkey", "lettuce", "mayo"]}, 
+        {"roast beef": ["roast beef", "horseradish", "swiss"]}
+    ],
+    
+    "hot sandwiches":["rueben", "ham and cheese", "french dip"],
+    
+    
+    "desserts":["cheese cake", "chocolate chip cookie", "apple pie"],
+   
+   
+    "drinks":["coffee", "tea", "soda"]
+} 

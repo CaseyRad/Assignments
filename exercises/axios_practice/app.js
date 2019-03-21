@@ -1,11 +1,24 @@
 const axios = require('axios');
 
 axios.get('https://api.vschool.io/caseyradermacher/todo').then(function(response){
-    // const todoList = response.data;
     
-    console.log(response.data)
 
-    });
+
+
+
+
+
+
+
+
+
+
+
+
+// const todoList = response.data;
+    
+ //     console.log(response.data)
+//     });
 
 // const newToDo = {
 //     item: "get milk"

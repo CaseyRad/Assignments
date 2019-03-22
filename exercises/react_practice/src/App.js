@@ -1,20 +1,18 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.css';
-import Header from "./Header.js";
-import Body from "./Body.js";
+import Header from "./Header";
+import Body from "./Body";
+import Footer from "./Footer";
 
 
 const App = () => {
 return (
   <div>
+    <Header/> 
     <Body/>
-    <h1>Hello</h1>
-    <div>
-      React practice
-    </div>
+    <Footer/>
   </div>
  )
-img src ""
 }
 
 export default App;

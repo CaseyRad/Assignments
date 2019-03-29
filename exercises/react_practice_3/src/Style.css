@@ -1,0 +1,28 @@
+.appWrapper{
+/* background-color: blue; */
+text-align: center;
+margin: auto;
+width: 50%;
+/* background-repeat: no-repeat; */
+background-image: url("https://i5.walmartimages.com/asr/e88f3794-a3c2-466e-b4ba-90f5b2a57fa9_1.d3e20f92cd8dbdc01bbba9d6978b5387.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF");
+display: flex;
+flex-direction:  column;
+align-items: center;
+border: 1px solid #ffffff;
+color: aqua;
+}
+
+.body {
+    color: blueviolet;
+}
+
+.contacts{
+    color: deeppink;
+}
+
+.footer{
+    color: blue;
+
+}
+
+/* /images/bulk_gumballs/sprinkles-gumballs-bagged.jpg */

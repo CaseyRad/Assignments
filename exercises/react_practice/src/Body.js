@@ -1,5 +1,6 @@
 import React from "react";
 import Product from "./Product";
+import { ReactComponent } from "*.svg";
 
 
 const Body = () => {
@@ -16,4 +17,40 @@ const Body = () => {
     )
 }
 export default Body;
+
+Product title="French Toast" price="$4.00" description="Dessert" 
+img="https://images.unplash.com/photo-14847239091457392174838498329241234567891012231234567891012345678910"
+
+class CounterContainer extends Component { 
+    constructor(){
+        super();
+        this.state ={
+            counter: 0
+
+//         }
+//     }
+//     render() {
+//         const styles = {
+//             fontSize: "30px"
+//             button: {
+//                 padding: "10px"
+//                 fontSize: 
+//             }
+
+
+//                 return (
+
+    //             }
+    //                 )
+//         }
+//     
+
+
+//     
+
+//     
+
+// }
+
+
 

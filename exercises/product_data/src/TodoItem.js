@@ -2,7 +2,9 @@ import TodoItem from "./TodoItem"
 
 const TodoItem = (props) => {
     return (
-        <div></div>
+        <div><h1>
+            
+            </h1></div>
     )
 }
 

@@ -1,0 +1,23 @@
+
+
+.breed-list-container {
+    font-family: fantasy;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+    
+}
+
+
+.breed-display{
+    text-align: left;
+}
+
+
+.links-container{
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    overflow-y: scroll 
+}

@@ -1,0 +1,105 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 6fr;
+    grid-template-areas: 
+    "header header"
+    "main sidebar"
+    "main sidebar"
+    "main sidebar"
+    "footer footer"
+    "footer footer";
+     background: #ffffff;
+     color: #325050;
+     font-family: 'Libre Baskerville', sans-serif;
+     font-size: 70%;
+     /* justify-items: stretch;
+     align-items: stretch; */
+    
+     /* justify-content: space-evenly; */
+}
+    .header1{
+        grid-column-start: 1;
+        grid-row-start: 1;
+
+    }
+
+    h1, h2{
+        color: #ffffff;
+        font-weight: normal;
+        
+    }
+
+
+.header1, .header2{
+    height: 230px;
+    background: #2d6360 50% 0 url(huntington.jpg) no-repeat;
+    background-image: url(contours-opaque.png) url(noise.png), url(gridlines.png);
+    /* background: url(huntington.jpg); */
+    background-repeat: repeat, no-repeat; 
+    text-align: center;
+    text-transform: uppercase;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.header2{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    color: #ffffff;
+    
+}
+
+.body1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end:3;
+    
+    
+}
+
+.body2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.body3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+
+.navbar1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.navbar2{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.navbar3{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.footer1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    text-align: center;
+}
+
+
+.footer2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    text-align: center;
+}

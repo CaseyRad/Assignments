@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { withBreeds} from './BreedProvider'
+import { withBreeds} from './BreedProvider' 
 
 
 class BreedDisplay extends Component {
@@ -10,7 +10,7 @@ class BreedDisplay extends Component {
                 id: "",
                 name: "",
                 bred_for: "",
-                breed_group: "",
+                breed_group: "", 
                 height: "",
                 weight: "",
                 life_span: "",

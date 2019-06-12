@@ -16,7 +16,8 @@ class BreedList extends Component {
                     {mappedLinks}
                 </div>
 
-                <Route path="/breeds/:breedname" component={BreedDisplay}/>
+                <Route path="/breeds/:breedname" component={BreedDisplay}/> 
+                  
             </div>  
         )
     }

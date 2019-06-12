@@ -33,10 +33,10 @@
 
 .header1, .header2{
     height: 230px;
-    background: #2d6360 50% 0 url(huntington.jpg) no-repeat;
+    background: #2d6360 50% 0 url(huntington.jpg) no-repeat ;
     background-image: url(contours-opaque.png) url(noise.png), url(gridlines.png);
     /* background: url(huntington.jpg); */
-    background-repeat: repeat, no-repeat; 
+    background-repeat: no-repeat, no-repeat; 
     text-align: center;
     text-transform: uppercase;
     grid-column-start: 1;
@@ -51,6 +51,9 @@
     grid-row-end: 2; 
     color: #ffffff;
     
+}
+.header2:hover{
+
 }
 
 .body1{

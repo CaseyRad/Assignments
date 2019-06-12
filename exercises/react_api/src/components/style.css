@@ -10,7 +10,7 @@
 
 .breed-display{
     text-align: left;
-    background: blue;
+    background: purple;
 }
 
 
@@ -20,4 +20,12 @@
     flex-direction: column;
     height: 100vh; 
     overflow-y: scroll;
+}
+
+.homepage{
+    display: grid;
+    text-align: center;
+    height: 100vh;
+    justify-self: center;
+    
 }

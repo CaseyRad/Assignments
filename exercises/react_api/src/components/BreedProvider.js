@@ -29,7 +29,7 @@ class BreedProvider extends Component {
                     breeds: this.state.breeds,
                     getBreeds: this.getBreeds
                 }}>
-               { this.props.children }
+               { this.props.children }   
            </BreedContext.Provider>
         )
     }

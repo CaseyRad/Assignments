@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import {withBreeds} from './components/BreedProvider'
 import { Switch, Route} from 'react-router-dom'
 import BreedList from './components/BreedList'
+import Homepage from './components/Homepage'
+import Navbar from './components/Navbar'
 
 
 class App extends Component {
@@ -18,15 +20,19 @@ class App extends Component {
         )
         return (
             <div>
+                <Navbar path="/navbar" />
                 <Switch>
+                    
+                    <Route exact path = "/"
+                    render={routerprops => 
+                    <Homepage {...routerprops}/>}/> 
                     <Route 
-                        path="/" 
+                        path="/breeds"  
                         render={routerProps => 
                             <BreedList 
                                 mappedBreeds={mappedBreeds} 
                                 breeds={this.props.breeds}
-                                {...routerProps}/>
-                    }/>
+                                {...routerProps}/>}/>
                 </Switch>
             </div>
         )  
